@@ -13,7 +13,7 @@
 - In-code documentation
 ## Team members: 
 Chen Hui Jun (3035533367)；
-Yang Zhi Bin 
+Yang Zhi Bin (3035447037).
 ## Basic game rules: 
 the player explores the rooms and every time he enters the room, he may trigger some events or discover some items that will help to uncover the truth of the story.
 ## features & function:
