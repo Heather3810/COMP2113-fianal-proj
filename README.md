@@ -20,24 +20,24 @@ Yang Zhi Bin (3035447037).
 - He will win the game if he comes out of the apartment before running out of the energy. If not, the player will fail this game. 
 ## features & function: 
 - Input and Output: 
-1. The player can input directions based on the map printed on the terminal to decide which room he or she wants to explore. when the player enters a new room, the status about the location of the player class will change accordingly.
-2. Input commands to react to the events triggered according to the guidance of printed on the terminal when entering the room, he or she can enter the same room many times but the guidance will be different if the play has already implemented the guided Quest. If the player has already implemented the Quest, the guidance of the room will be "after command instruction". Otherwise, it will be "before command instruction". The player can directly move to another room without any Quest implemented.
-3. Input commands also include "Help", "Check Energy", "Check Inv" command which gives guidance, energy point display, and inventory display respectively.
+  - The player can input directions based on the map printed on the terminal to decide which room he or she wants to explore. when the player enters a new room, the status about the location of the player class will change accordingly.
+  - Input commands to react to the events triggered according to the guidance of printed on the terminal when entering the room, he or she can enter the same room many times but the guidance will be different if the play has already implemented the guided Quest. If the player has already implemented the Quest, the guidance of the room will be "after command instruction". Otherwise, it will be "before command instruction". The player can directly move to another room without any Quest implemented.
+  - Input commands also include "Help", "Check Energy", "Check Inv" command which gives guidance, energy point display, and inventory display respectively.
 
 - Class: 
-1. The player will be created as a class, with attributes name, energy, inventory, and location. 
-2. The 4 rooms will be created as a class with attributes: name, map, before command instruction, after command instruction. The gudiance in the room will instruct the player to input different command and acquire different items.
-3. The items obtained from rooms will be created as a class with attributes: name, energy point (negative or positive).
-
-- Inventory: 
-Players can get items from the "Quest" command and store them in their inventory, these items can be key, cat food, or apple which can increase the energy point.
+  - The player will be created as a class, with attributes name, energy, inventory, and location. 
+  - The 4 rooms will be created as a class with attributes: name, map, before command instruction, after command instruction. The gudiance in the room will instruct the player to input different command and acquire different items.
+  - The items obtained from rooms will be created as a class with attributes: name, energy point (negative or positive).
 
 - Random Generation:
-1. The player wakes up in a random room among these 4 rooms.
-2. When the play decides to help the old nanny, he or she will be rewarded a random number of apple ranging from 1-2, each apple will increase his or her energy point by 3-5 randomly. 
+  - The player wakes up in a random room among these 4 rooms.
+  - When the play decides to help the old nanny, he or she will be rewarded a random number of apple ranging from 1-2, each apple will increase his or her energy point by 3-5 randomly. 
+
+- Inventory: 
+  - Players can get items from the "Quest" command and store them in their inventory, these items can be key, cat food, or apple which can increase the energy point.
 
 - Files:
-Multiple files are used, including the main file, room, item inventory, player's action......
+  - Multiple files are used, including the main file, room, item inventory, player's action......
 
 - Data Structure Storage:
-we will use vectors to store game status and update the status when triggering the event. Vectors will store the status of player/inventory/rooms separately, it will change accordingly after the player trigger some command.
+  - we will use vectors to store game status and update the status when triggering the event. Vectors will store the status of player/inventory/rooms separately, it will change accordingly after the player trigger some command.
