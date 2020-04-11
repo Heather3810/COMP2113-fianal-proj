@@ -24,6 +24,7 @@ Yang Zhi Bin (3035447037).
 2. Input commands to react to the events triggered according to the guidance of printed on the ternminal when entering the room, he or she can enter same room many times but the guidance will be different if the play has already inplemented the guided Quest. If the player has already implemented the Quest, the guidance of the room will be "after command instruction". Otherwise, it will be "before command instruction". The player can directly move to another room without any Quest implemented.
 3. Input command also include "Help", "Check Engergy", "Check Inv" command which give guidance, energy point display and inventory display respecitively.
 
+-- 111
 - Class: 
 1. The player will be created as a class, with attributs name, energy, inventory and location. 
 2. The room will be created as a class with attributes: name, map, before command instruction, after command instruction.
