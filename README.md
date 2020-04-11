@@ -12,8 +12,7 @@
 - Proper indentation and naming styles
 - In-code documentation
 ## Team members: 
-Chen Hui Jun (3035533367)；
-Yang Zhi Bin (3035447037).
+Chen Hui Jun (3035533367)；Yang Zhi Bin (3035447037).
 ## Basic game rules: 
 - The player wakes up in a random room of an apartment and find out that he or she is trapped and cannot go out without a key. The player explores the apartment's 4 rooms to collect the clue and items which can help him or her go out. 
 - Initially, the player has an energy of 20 points, which will decrease by one point when he or she moves from one room to another, it will also increase or decrease by 5-10 points when he or she conducts some quests of the games, for example, helping old Nanny who will reward him or her some random points, feeding a cat with drawer key will consume 5 points, opening the drawer which contains the door key will consume 5 points, opening the door to go out will consume 10 points. 
@@ -34,7 +33,7 @@ Yang Zhi Bin (3035447037).
   - When the play decides to help the old nanny, he or she will be rewarded a random number of apple ranging from 1-2, each apple will increase his or her energy point by 3-5 randomly. 
 
 - Inventory: 
-  - Players can get items from the "Quest" command and store them in their inventory, these items can be key, cat food, or apple which can increase the energy point.
+  - Players can get items from the "Quest" command and store them in their inventory, these items can be keys, cat food, or apples which can increase the energy point.
 
 - Files:
   - Multiple files are used, including the main file, room, item inventory, player's action......
