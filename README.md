@@ -1,4 +1,4 @@
-# COMP2113-fianal-proj
+# COMP2113-final-proj
 ## Create a readme.md file there in the repo, which should contain:
 - A brief identification of the team members.
 - A game description with basic game rules.
