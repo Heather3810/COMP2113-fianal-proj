@@ -1,4 +1,4 @@
-# COMP2113-final-projest
+# COMP2113-final-project
 ## This repo contains:
 - A brief identification of the team members.
 - A game description with basic game rules.
