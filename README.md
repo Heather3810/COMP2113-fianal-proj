@@ -15,29 +15,29 @@
 Chen Hui Jun (3035533367)；
 Yang Zhi Bin (3035447037).
 ## Basic game rules: 
-- The player wake up in an apartment and find out that he or she is trapped and cannot go out without a key. The player explore the apartment's 4 rooms to collect the clue and items which can help him or her go out. 
-- Initially, the player has a energy of 20 points, which will decrease by one point when he or she moves from one room to another, it will also increase or decrease by 5-10 points when he or she conducts some quests of the games, for example, helping old Nanny who will reward him or her some random points, feeding cat with drawer key will consume 5 points, opening the drawer which contains the door key will consume 5 point, opening the door to go out will consumes 10 points. 
-- He will win the game if he come out of the apartment before running out of the energy. If not, the player will fail this game. 
+- The player wakes up in a random room of an apartment and find out that he or she is trapped and cannot go out without a key. The player explores the apartment's 4 rooms to collect the clue and items which can help him or her go out. 
+- Initially, the player has an energy of 20 points, which will decrease by one point when he or she moves from one room to another, it will also increase or decrease by 5-10 points when he or she conducts some quests of the games, for example, helping old Nanny who will reward him or her some random points, feeding a cat with drawer key will consume 5 points, opening the drawer which contains the door key will consume 5 points, opening the door to go out will consume 10 points. 
+- He will win the game if he comes out of the apartment before running out of the energy. If not, the player will fail this game. 
 ## features & function: 
 - Input and Output: 
-1. Player can input directions based on the map printed on the terminal to decide which room he or she wants to explore, when the player enter a new room, the status about the location of the player class will change accordingly.
-2. Input commands to react to the events triggered according to the guidance of printed on the ternminal when entering the room, he or she can enter same room many times but the guidance will be different if the play has already inplemented the guided Quest. If the player has already implemented the Quest, the guidance of the room will be "after command instruction". Otherwise, it will be "before command instruction". The player can directly move to another room without any Quest implemented.
-3. Input command also include "Help", "Check Engergy", "Check Inv" command which give guidance, energy point display and inventory display respecitively.
+1. The player can input directions based on the map printed on the terminal to decide which room he or she wants to explore. when the player enters a new room, the status about the location of the player class will change accordingly.
+2. Input commands to react to the events triggered according to the guidance of printed on the terminal when entering the room, he or she can enter the same room many times but the guidance will be different if the play has already implemented the guided Quest. If the player has already implemented the Quest, the guidance of the room will be "after command instruction". Otherwise, it will be "before command instruction". The player can directly move to another room without any Quest implemented.
+3. Input commands also include "Help", "Check Energy", "Check Inv" command which gives guidance, energy point display, and inventory display respectively.
 
--- 111
 - Class: 
-1. The player will be created as a class, with attributs name, energy, inventory and location. 
-2. The room will be created as a class with attributes: name, map, before command instruction, after command instruction.
-3. The items abtained from rooms will be created as a class with attributes: name, energy point (negative or positve), 
+1. The player will be created as a class, with attributes name, energy, inventory, and location. 
+2. The 4 rooms will be created as a class with attributes: name, map, before command instruction, after command instruction. The gudiance in the room will instruct the player to input different command and acquire different items.
+3. The items obtained from rooms will be created as a class with attributes: name, energy point (negative or positive).
 
 - Inventory: 
 Players can get items from the "Quest" command and store them in their inventory, these items can be key, cat food, or apple which can increase the energy point.
 
 - Random Generation:
-Some events are generated randomly. For example, when the play decide to help the old nanny, he or she will be rewarded a random number of apple ranging from 1-2, each apple will increase his or her energy point by 3-5 randomly. 
+1. The player wakes up in a random room among these 4 rooms.
+2. When the play decides to help the old nanny, he or she will be rewarded a random number of apple ranging from 1-2, each apple will increase his or her energy point by 3-5 randomly. 
 
 - Files:
-Multiple files are used, including the room, item inventory, player's action......
+Multiple files are used, including the main file, room, item inventory, player's action......
 
 - Data Structure Storage:
-we will use vector to store game status and update the status when triggering the event. Vectors will store the status of player / inventory / rooms seperately, it will change accordingly after the player triger some command.
+we will use vectors to store game status and update the status when triggering the event. Vectors will store the status of player/inventory/rooms separately, it will change accordingly after the player trigger some command.
