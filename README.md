@@ -1,4 +1,4 @@
-# COMP2113-final-proj
+# COMP2113-final-projest
 ## This repo contains:
 - A brief identification of the team members.
 - A game description with basic game rules.
@@ -24,7 +24,7 @@ Chen Hui Jun (3035533367)；Yang Zhi Bin (3035447037).
   - Input commands also include "Help", "Check Energy", "Check Inv" command which gives guidance, energy point display, and inventory display respectively.
 
 - Class: 
-  - The player will be created as a class, with attributes name, energy, inventory, and location. 
+  - The player will be created as a class, with attributes: name, energy, inventory, and location. 
   - The 4 rooms will be created as a class with attributes: name, map, before command instruction, after command instruction. The gudiance in the room will instruct the player to input different command and acquire different items.
   - The items obtained from rooms will be created as a class with attributes: name, energy point (negative or positive).
 
