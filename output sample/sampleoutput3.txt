@@ -1,0 +1,36 @@
+Welcome! You are now trapped in this apartment, you need to explore each room and find a way out. 
+There are four rooms here, you can get in the room by inputting the room names. In each room, there are events/items that are helpful, you can type in 'LOOK' to explore the room and type in 'INV' to check the items you collected.
+You have 15 energy points initially, going to the rooms will consume 1 point each time and completing tasks will consume 3 energy each time, Once the energy is used up, you fail. If you can escape the room before used up all the energy, you succeed. You can check your energy by inputting 'ENERGY'.
+Now you are standing at the ENTRANCE. You can always input 'GUIDANCE' to see the available commands and room name.
+Enjoy the game!
+GUIDANCE   - Shows some available commands.
+LOOK or L  - Lets you see the room description.
+INV        - Lists all the items in your inventory.
+ENERGY     - Check the remaining energy of the player.
+EXIT       - Moves to the exit room.
+CATROOM    - Moves to the catroom.
+ENTRANCE   - Moves to the entrance room.
+LOBBY   	  - Moves to the lobby room.
+QUIT       - Ends the game.
+You are in CATROOM now.
+You saw a cat with a key in its mouth, you can choose to 'FEED' it. 
+You do not have the cat food.
+You are in EXIT now.
+You saw a security door, you can choose to 'INPUT' the password. You saw some catfood on the ground and you got some.You are carrying:
+cat food, 
+You are in CATROOM now.
+You saw a cat with a key in its mouth, you can choose to 'FEED' it. 
+You fed the cat, got the key from the cat.
+You can use the key to open the drawer in the ENTRANCE.
+You are carrying:
+cat food, key, 
+You have already completed the task here.
+You are in ENTRANCE now.
+You saw a drawer, you can choose to 'OPEN' it8
+You opened the drawer, got the password.
+password can help you open the exit door.
+You are carrying:
+cat food, key, password, 
+You are in EXIT now.
+You saw a security door, you can choose to 'INPUT' the password. You saw some catfood on the ground and you got some.You input the password, the exit door is opened.
+The apartment escape is finished, congratulations!
