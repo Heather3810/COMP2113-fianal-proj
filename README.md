@@ -40,3 +40,7 @@ Chen Hui Jun (3035533367)；Yang Zhi Bin (3035447037).
 
 - Data Structure Storage:
   - we will use vectors to store game status and update the status when triggering the event. Vectors will store the status of player/inventory/rooms separately, it will change accordingly after the player triggers some command.
+
+## Non-standard C/C++ libraries
+- <cstdlib> <ctime>: create the random amounts of energy of the apple.
+- <string>: use the string data type in the game.
