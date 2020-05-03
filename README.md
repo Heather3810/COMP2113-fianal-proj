@@ -1,5 +1,5 @@
 # COMP2113-final-project
-## This repo contains:
+## This Readme.md contains:
 - A brief identification of the team members.
 - A game description with basic game rules.
 - A list of features / functions that you plan to implement, vis-a-vis each of the items 1 to 5 listed under coding requirements above.
