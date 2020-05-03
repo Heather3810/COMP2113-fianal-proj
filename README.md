@@ -17,7 +17,7 @@
 Chen Hui Jun (3035533367)；Yang Zhi Bin (3035447037).
 ## Basic game rules: 
 - The player wakes up in a random room of the entrance of an apartment and finds out that he or she is trapped and cannot go out without a password to the exit. The player explores the apartment's 4 rooms to collect the clue and items which can help him or her go out. 
-- Initially, the player has an energy of 15 points, which will decrease by one point when he or she moves from one room to another, it will also decrease 3 points when he or she conducts some quests of the games, but helping old Nanny who will reward him or her an apple which contains random points ranging from 0-4.
+- Initially, the player has an energy of 15 points, which will decrease by one point when he or she moves from one room to another, it will also decrease 3 points when he or she conducts some quests of the games, but helping old Nanny who will reward him or her an apple which contains random amount of energy ranging from 0-4.
 - He will win the game if he comes out of the apartment before running out of the energy. If not, the player will fail this game. 
 ## features & function: 
 - Input and Output: 
