@@ -47,9 +47,12 @@ Chen Hui Jun (3035533367)；Yang Zhi Bin (3035447037).
 - string: use the string data type in the game.
 
 ## Compilation and execution instructions
+-Compilation instruction:
+  The game.cpp is the main program, and the item.cpp and the roomnew.cpp store the functions related to the item and the room. 
+-Execution instruction:
 Player are trapped in the rooms , player needs to explore each room and find a way out. 
 There are four rooms created, player can get in the room by inputting the room names. In each room, there are events/items that are helpful , player can type in 'LOOK' to explore the room and see if there is any task to complete. Also, player can type in 'INV' to check the collected items.
 Player have 15 energy points initially, going to the rooms will consume 1 point each time and completing tasks will consume 3 energy each time, Once the energy is used up, the game is over. If player can escape the room before used up all the energy, player succeed and the game is finished. Player can check your energy by inputting 'ENERGY'.
-Player can always input 'GUIDANCE' to see the available commands and room name.
+Player can always input 'GUIDANCE' to see the available commands and room names.
 
 
