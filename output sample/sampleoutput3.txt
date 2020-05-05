@@ -13,24 +13,28 @@ ENTRANCE   - Moves to the entrance room.
 LOBBY   	  - Moves to the lobby room.
 QUIT       - Ends the game.
 You are in CATROOM now.
-You saw a cat with a key in its mouth, you can choose to 'FEED' it. 
+You saw a cat with a key in its mouth, you can choose to 'FEED' it.
 You do not have the cat food.
 You are in EXIT now.
-You saw a security door, you can choose to 'INPUT' the password. You saw some catfood on the ground and you got some.You are carrying:
+You saw a security door, you can choose to 'INPUT' the password. You saw some catfood on the ground and you got some.
+You are carrying:
 cat food, 
 You are in CATROOM now.
-You saw a cat with a key in its mouth, you can choose to 'FEED' it. 
+You saw a cat with a key in its mouth, you can choose to 'FEED' it.
 You fed the cat, got the key from the cat.
 You can use the key to open the drawer in the ENTRANCE.
 You are carrying:
 cat food, key, 
 You have already completed the task here.
+
 You are in ENTRANCE now.
-You saw a drawer, you can choose to 'OPEN' it8
+You saw a drawer, you can choose to 'OPEN' it
+8
 You opened the drawer, got the password.
 password can help you open the exit door.
 You are carrying:
 cat food, key, password, 
 You are in EXIT now.
-You saw a security door, you can choose to 'INPUT' the password. You saw some catfood on the ground and you got some.You input the password, the exit door is opened.
+You saw a security door, you can choose to 'INPUT' the password. You saw some catfood on the ground and you got some.
+You input the password, the exit door is opened.
 The apartment escape is finished, congratulations!

@@ -4,21 +4,25 @@ You have 15 energy points initially, going to the rooms will consume 1 point eac
 Now you are standing at the ENTRANCE. You can always input 'GUIDANCE' to see the available commands and room name.
 Enjoy the game!
 You are in LOBBY now.
-You saw a nanny fell on the ground, you can choose to 'HELP' her.You helped the nanny, she gave you an apple.
+You saw a nanny fell on the ground, you can choose to 'HELP' her.
+You helped the nanny, she gave you an apple.
 You get an apple, which add some energy to you.
-The total energy of the apple is 4
+The total energy of the apple is 3
 You are carrying:
 apple, 
 You are in EXIT now.
-You saw a security door, you can choose to 'INPUT' the password. You saw some catfood on the ground and you got some.You are in CATROOM now.
-You saw a cat with a key in its mouth, you can choose to 'FEED' it. 
+You saw a security door, you can choose to 'INPUT' the password. You saw some catfood on the ground and you got some.
+You are in CATROOM now.
+You saw a cat with a key in its mouth, you can choose to 'FEED' it.
 You fed the cat, got the key from the cat.
 You can use the key to open the drawer in the ENTRANCE.
 You are in ENTRANCE now.
-You saw a drawer, you can choose to 'OPEN' itYou opened the drawer, got the password.
+You saw a drawer, you can choose to 'OPEN' it
+You opened the drawer, got the password.
 password can help you open the exit door.
 You are carrying:
 apple, cat food, key, password, 
 You are in EXIT now.
-You saw a security door, you can choose to 'INPUT' the password. You saw some catfood on the ground and you got some.You input the password, the exit door is opened.
+You saw a security door, you can choose to 'INPUT' the password. You saw some catfood on the ground and you got some.
+You input the password, the exit door is opened.
 The apartment escape is finished, congratulations!
